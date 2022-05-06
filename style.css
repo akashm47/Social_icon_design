@@ -18,7 +18,7 @@ body {
   ul {
     position:absolute;
     top:50%;
-    left:50%;
+    left: 50%;
     transform:translate(-50%, -50%);
     display:flex;
     margin:0;
@@ -33,7 +33,7 @@ body {
   ul li a .fa {
     font-size: 40px;
     color: #262626;
-    line-height:80px;
+    line-height: 80px;
     transition: .5s;
     padding-right: 14px;
   }
@@ -136,32 +136,13 @@ body {
   ul li:hover:nth-child(4) a:after{
     background: #85c5ed;
   }
-  
-  ul li:hover:nth-child(5) a{
-    background: #e33054;
-  }
-  ul li:hover:nth-child(5) a:before{
-    background: #f36380;
-  }
-  ul li:hover:nth-child(5) a:after{
-    background: #f18989;
-  }
 
-  ul li:hover:nth-child(6) a{
+  ul li:hover:nth-child(5) a{
     background: #ff36d7;
   }
-  ul li:hover:nth-child(6) a:before{
+  ul li:hover:nth-child(5) a:before{
     background: #ff5ade;
   }
-  ul li:hover:nth-child(6) a:after{
+  ul li:hover:nth-child(5) a:after{
     background: #fd80e4;
-  }
-  ul li:hover:nth-child(7) a{
-    background: #fc4f08;
-  }
-  ul li:hover:nth-child(7) a:before{
-    background: #ff895a;
-  }
-  ul li:hover:nth-child(7) a:after{
-    background: #fe9f7a;
   }
