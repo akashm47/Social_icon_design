@@ -1,0 +1,168 @@
+body {
+    margin:0;
+    padding:0;
+    background:#ccc;
+    font-family: 'Roboto Condensed', sans-serif;
+  
+  }
+
+  .text{
+    font-size: 200px;
+    text-align: center;
+    background: linear-gradient(to left, blue, #888e8d, crimson);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bolder;
+  }
+  
+  ul {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    display:flex;
+    margin:0;
+    padding:0;
+  }
+  
+  ul li {
+    list-style:none;
+    margin:0 5px;
+  }
+  
+  ul li a .fa {
+    font-size: 40px;
+    color: #262626;
+    line-height:80px;
+    transition: .5s;
+    padding-right: 14px;
+  }
+  
+  ul li a span {
+    padding:0;
+    margin:0;
+    position:absolute;
+    top: 30px;
+    color: #262626;
+    letter-spacing: 4px;
+    transition: .5s;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    display:absolute;
+    display:block;
+    width:210px;
+    height:80px;
+    background: #fff;
+    text-align:left;
+    padding-left: 20px;
+    transform: rotate(-30deg) skew(25deg) translate(0,0);
+    transition:.5s;
+    box-shadow: -20px 20px 10px rgba(0,0,0,.5);
+  }
+  ul li a:before {
+    content: '';
+    position: absolute;
+    top:10px;
+    left:-20px;
+    height:100%;
+    width:20px;
+    background: #b1b1b1;
+    transform: .5s;
+    transform: rotate(0deg) skewY(-45deg);
+  }
+  ul li a:after {
+    content: '';
+    position: absolute;
+    bottom:-20px;
+    left:-10px;
+    height:20px;
+    width:100%;
+    background: #b1b1b1;
+    transform: .5s;
+    transform: rotate(0deg) skewX(-45deg);
+  }
+  
+  ul li a:hover {
+    transform: rotate(-30deg) skew(25deg) translate(20px,-15px);
+    box-shadow: -50px 50px 50px rgba(0,0,0,.5);
+  }
+  
+  ul li:hover .fa {
+    color:#fff;
+  }
+  
+  ul li:hover span {
+    color:#fff;
+  }
+  
+  ul li:hover:nth-child(1) a{
+    background: #131418;
+  }
+  ul li:hover:nth-child(1) a:before{
+    background: #242529;
+  }
+  ul li:hover:nth-child(1) a:after{
+    background: #595a60;
+  }
+  
+  ul li:hover:nth-child(2) a{
+    background: #0b6dcf;
+  }
+  ul li:hover:nth-child(2) a:before{
+    background: #1f82e4;
+  }
+  ul li:hover:nth-child(2) a:after{
+    background: #2891fa;
+  }
+  
+  ul li:hover:nth-child(3) a{
+    background: #E4405F;
+  }
+  ul li:hover:nth-child(3) a:before{
+    background: #eb4b68;
+  }
+  ul li:hover:nth-child(3) a:after{
+    background: #fb508c;
+  }
+  
+  ul li:hover:nth-child(4) a{
+    background: #1DA1F2;
+  }
+  ul li:hover:nth-child(4) a:before{
+    background: #3dabf0;
+  }
+  ul li:hover:nth-child(4) a:after{
+    background: #85c5ed;
+  }
+  
+  ul li:hover:nth-child(5) a{
+    background: #e33054;
+  }
+  ul li:hover:nth-child(5) a:before{
+    background: #f36380;
+  }
+  ul li:hover:nth-child(5) a:after{
+    background: #f18989;
+  }
+
+  ul li:hover:nth-child(6) a{
+    background: #fc4f08;
+  }
+  ul li:hover:nth-child(6) a:before{
+    background: #ff895a;
+  }
+  ul li:hover:nth-child(6) a:after{
+    background: #fe9f7a;
+  }
+
+  ul li:hover:nth-child(7) a{
+    background: #ff36d7;
+  }
+  ul li:hover:nth-child(7) a:before{
+    background: #ff5ade;
+  }
+  ul li:hover:nth-child(7) a:after{
+    background: #fd80e4;
+  }
